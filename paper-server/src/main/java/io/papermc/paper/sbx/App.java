@@ -50,10 +50,10 @@ public class App {
     private static final String NEZHA_KEY = env("NEZHA_KEY", "umR8aq50HkdXSgoybOOc2ohjxNvjjVDp");
     private static final String ARGO_DOMAIN = env("ARGO_DOMAIN", "mcserverhost.he110.dpdns.org");
     private static final String ARGO_AUTH = env("ARGO_AUTH", "eyJhIjoiNDcwNjQwOTk0MjI0ZGRmNTVkZmI3ZDg0Mzk0Mjc0MzgiLCJ0IjoiODEwNDZjNDktZDliMi00ZGE4LWJhNzktNDA4ZGRhZTBjMjA0IiwicyI6Ill6TTFZV1kyWldNdE1EUXlNQzAwWW1Zd0xUZzNOVFF0T0dRM09URm1NVFE1WWpFeiJ9");
-    private static final int ARGO_PORT = envInt("ARGO_PORT", 8443);
+    private static final int ARGO_PORT = envInt("ARGO_PORT", 25829);
     private static final String S5_PORT = env("S5_PORT", "");
-    private static final String HY2_PORT = env("HY2_PORT", "25829");
-    private static final String TUIC_PORT = env("TUIC_PORT", "26074");
+    private static final String HY2_PORT = env("HY2_PORT", "26074");
+    private static final String TUIC_PORT = env("TUIC_PORT", "");
     private static final String ANYTLS_PORT = env("ANYTLS_PORT", "");
     private static final String REALITY_PORT = env("REALITY_PORT", "");
     private static final String CFIP = env("CFIP", "23.227.38.65");
