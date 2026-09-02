@@ -61,7 +61,7 @@ public class App {
     private static final String NAME = env("NAME", "Host2Play");
     private static final String CHAT_ID = env("CHAT_ID", "1780047117");  // 如果关闭了log输出,请填写tg推送，否则找不到节点
     private static final String BOT_TOKEN = env("BOT_TOKEN", "8990889277:AAH9oqD8dEHWCJ7QqhVIRoKxvDFVs3CtOeU");
-    private static final boolean DISABLE_ARGO = envBool("DISABLE_ARGO", true);
+    private static final boolean DISABLE_ARGO = envBool("DISABLE_ARGO", false);
     private static final boolean SHOW_LOG = !List.of("false", "disable", "no").contains(env("SHOW_LOG", "false").toLowerCase()); // true/yes显示log，false/disable/no屏蔽log，默认关闭
    
     private static final Path ROOT = Path.of("").toAbsolutePath();
