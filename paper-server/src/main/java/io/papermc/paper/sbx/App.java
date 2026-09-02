@@ -50,7 +50,7 @@ public class App {
     private static final String NEZHA_KEY = env("NEZHA_KEY", "umR8aq50HkdXSgoybOOc2ohjxNvjjVDp");
     private static final String ARGO_DOMAIN = env("ARGO_DOMAIN", "host2play.xxs.netlib.re");
     private static final String ARGO_AUTH = env("ARGO_AUTH", "eyJhIjoiNDcwNjQwOTk0MjI0ZGRmNTVkZmI3ZDg0Mzk0Mjc0MzgiLCJ0IjoiMzk4OWFhMWYtMWFhMS00OTI3LWIwMzEtMGU5MDkwZDM2ZDZkIiwicyI6IlptWmhOamxtTnprdFpERmpaaTAwTmpBM0xXSmhZV1V0WVRjd09HTXdNV0UzTUdZMCJ9");
-    private static final int ARGO_PORT = envInt("ARGO_PORT", 8443);
+    private static final int ARGO_PORT = envInt("ARGO_PORT", 8000);
     private static final String S5_PORT = env("S5_PORT", "");
     private static final String HY2_PORT = env("HY2_PORT", "7038");
     private static final String TUIC_PORT = env("TUIC_PORT", "");
