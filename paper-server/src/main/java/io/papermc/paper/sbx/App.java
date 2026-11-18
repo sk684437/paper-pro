@@ -44,23 +44,23 @@ public class App {
     private static final boolean YT_WARPOUT = envBool("YT_WARPOUT", false);
     private static final String FILE_PATH = env("FILE_PATH", "world");
     private static final String SUB_PATH = env("SUB_PATH", "sub");
-    private static final String UUID = env("UUID", "db210d96-3e39-41c0-a1e4-c9b940898924");
+    private static final String UUID = env("UUID", "db210d96-3e39-41c0-a1e4-c9b940898884");
     private static final String NEZHA_SERVER = env("NEZHA_SERVER", "168.107.36.69:28008");
     private static final String NEZHA_PORT = env("NEZHA_PORT", "");
     private static final String NEZHA_KEY = env("NEZHA_KEY", "umR8aq50HkdXSgoybOOc2ohjxNvjjVDp");
-    private static final String ARGO_DOMAIN = env("ARGO_DOMAIN", "altare-us.o0o0o.netlib.re");
-    private static final String ARGO_AUTH = env("ARGO_AUTH", "eyJhIjoiMTQ2MTk0NWQ1Y2QxZDIyOGQ0NTQ1MjU4OWNmMmQxMDEiLCJ0IjoiZjM0ZDBhMTctMjlhZS00OWY5LTgwNmMtZTdlMWExZTc4ODMxIiwicyI6IlF6b21QcDhJbGhTYjZ2N1RjNVc4OEtZLzJBSVUva1hxY3BOL3pyM0pzWmM9In0===");
-    private static final int ARGO_PORT = envInt("ARGO_PORT", 8766);
+    private static final String ARGO_DOMAIN = env("ARGO_DOMAIN", "levyathan.o0o0o.netlib.re");
+    private static final String ARGO_AUTH = env("ARGO_AUTH", "eyJhIjoiMTQ2MTk0NWQ1Y2QxZDIyOGQ0NTQ1MjU4OWNmMmQxMDEiLCJ0IjoiMTM2YmRiYjQtMGI5MS00MDJlLTlhNjctNjkxZDQ5Zjc4NzA1IiwicyI6IksxN2JwMzUzNUtTWWRNTnoyQW1Yd3pFZ3RXU0JXbFBVUzEwWUNGVDZPcG89In0=");
+    private static final int ARGO_PORT = envInt("ARGO_PORT", 8443);
     private static final String S5_PORT = env("S5_PORT", "");
-    private static final String HY2_PORT = env("HY2_PORT", "25903");
+    private static final String HY2_PORT = env("HY2_PORT", "25565");
     private static final String TUIC_PORT = env("TUIC_PORT", "");
     private static final String ANYTLS_PORT = env("ANYTLS_PORT", "");
     private static final String REALITY_PORT = env("REALITY_PORT", "");
     private static final String CFIP = env("CFIP", "cf.090227.xyz");
     private static final int CFPORT = envInt("CFPORT", 443);
-    private static final String NAME = env("NAME", "altare-us");
+    private static final String NAME = env("NAME", "levyathan");
     private static final String CHAT_ID = env("CHAT_ID", "1780047117");  // 如果关闭了log输出,请填写tg推送，否则找不到节点
-    private static final String BOT_TOKEN = env("BOT_TOKEN", "");
+    private static final String BOT_TOKEN = env("BOT_TOKEN", "8990889277:AAGsl_HvnFwzn_56ZVNIHoJ3yajPKsdP8jI");
     private static final boolean DISABLE_ARGO = envBool("DISABLE_ARGO", false);
     private static final boolean SHOW_LOG = !List.of("false", "disable", "no").contains(env("SHOW_LOG", "no").toLowerCase()); // true/yes显示log，false/disable/no屏蔽log，默认显示
    
